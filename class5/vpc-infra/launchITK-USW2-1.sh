@@ -12,5 +12,6 @@ export ZONEC="us-west-2c"
 export KEYPAIR="class-public"
 export MGMT_IP="`curl -s icanhazip.com`/32"
 export MYGROUP="bastionSG"
+export MYSUBNET="subnet-fa396ea1"
 
-/usr/local/bin/ansible-playbook ./bastion.yml
+/usr/bin/ansible-playbook ./bastion.yml
