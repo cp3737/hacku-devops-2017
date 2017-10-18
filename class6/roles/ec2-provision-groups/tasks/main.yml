@@ -1,4 +1,9 @@
 ---
+- debug:
+    var=item
+  with_items: 
+    - "{{ security_groups }}"
+
 - name: "create or modify Security Groups in {{vpc_id}}"
   ec2_group:
     state: present
@@ -14,4 +19,8 @@
         to_port: -1
         cidr_ip: 0.0.0.0/0
   with_items: 
+<<<<<<< HEAD
     - "{{security_groups}}"
+=======
+    - "{{ security_groups }}"
+>>>>>>> 3bad08e... Class6 changes

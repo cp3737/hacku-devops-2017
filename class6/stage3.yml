@@ -46,7 +46,7 @@
             instance_id: "{{bastion_instance}}"
 
   roles:
-    - ec2-provision-ecs
+   # - ec2-provision-ecs
 
   post_tasks:
    - debug: msg="Download {{region}} VPN credentials from https://{{vpn_ip}}:10000"

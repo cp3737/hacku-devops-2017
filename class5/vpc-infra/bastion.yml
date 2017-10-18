@@ -8,7 +8,7 @@
     instance_type: t2.micro
     count: 1
     assign_public_ip: yes
-    image_name: "ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"
+    image_name: "ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-*"
     image_owner: "846261642979"
     wait: yes
     source_dest_check: "no"

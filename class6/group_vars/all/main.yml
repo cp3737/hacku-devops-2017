@@ -27,7 +27,7 @@ vpn_city: "Portland"
 vpn_state: "OR"
 vpn_country: "US"
 ca_name:  "HackOregonCA"
-vpn_email: "bill@mcgair.com"
+vpn_email: "smolling@stanford.edu"
 
 # security groups
 security_groups:
