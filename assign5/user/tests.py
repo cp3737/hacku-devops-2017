@@ -34,9 +34,9 @@ class UserAPITestCase(TestCase):
         assert num_users == 2, \
             "Expect it to return exactly 2 users. Got: {}" . format(num_users)
 
-    # def test_get_user_returns_correct_fields(self):
-    #     """GET /user/{pk} returns a user"""
-    #     assert False is True
+   #  def test_get_user_returns_correct_fields(self):
+   #      """GET /user/{pk} returns a user"""
+   #      assert False is True
 
     def test_get_user_returns_correct_fields(self):
         """GET /user/{pk} returns a user"""
